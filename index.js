@@ -223,7 +223,7 @@ Tag: ${process.env.GITHUB_REF}
 const output = evresp(ghevent);
 bot.sendMessage(chatid, output, {
   parse_mode: "Markdown",
-  message_thread_id: 56,
+  message_thread_id: 13,
   link_preview_options: {
     is_disabled: false,
     url: psimage.replaceAll(".", "\\."),
